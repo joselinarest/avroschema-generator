@@ -1,0 +1,63 @@
+{
+  "name": "avroschema",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@analytics/google-analytics": "^0.4.0",
+    "analytics": "^0.3.5",
+    "avsc": "^5.4.20",
+    "bootstrap-vue": "^2.10.1",
+    "core-js": "^3.6.4",
+    "csvtojson": "^2.0.10",
+    "file": "^0.2.2",
+    "json-schema-to-avro": "^1.1.0",
+    "json-to-avro": "^1.1.1",
+    "json-to-json-schema": "^0.0.4",
+    "json-to-schema": "^0.0.2",
+    "jsonlint": "^1.6.3",
+    "jsonlint-mod": "^1.7.5",
+    "sql-ddl-to-json-schema": "^4.0.1",
+    "system": "^2.0.1",
+    "to-json-schema": "^0.2.5",
+    "vue": "^2.6.11",
+    "vue-clipboard2": "^0.3.1",
+    "vue-code-highlight": "^0.7.4",
+    "vue-codemirror": "^4.0.6",
+    "vue-meta": "^2.3.3",
+    "vue-router": "^3.1.6",
+    "vue-script2": "^2.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

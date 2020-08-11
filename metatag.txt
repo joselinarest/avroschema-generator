@@ -1,0 +1,3 @@
+<title>Avro Schema Generator</title>
+<meta data-vue-meta="1" name="keywords" content="avro schema generator, mysql ddl avro , json, csv">
+<meta data-vue-meta="1" name="description" content="Online Avro Schema generator will convert mysql ddl, json and csv to avro schema json">
