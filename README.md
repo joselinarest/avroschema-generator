@@ -8,8 +8,6 @@ It helps to convert from Data Definition Language (DDL), JSON and CSV to avro sc
 Also capable of translating from nested json definition to avro complex type schema.
 Toolbar that allows copy to clipboard and download the schema
 
-[Live Demo](https://avroschema.com/).
-
 ## Project setup
 ```
 yarn install
